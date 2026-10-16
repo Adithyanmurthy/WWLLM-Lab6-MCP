@@ -1,0 +1,4 @@
+mcp>=1.27
+httpx>=0.28
+streamlit>=1.40
+pytest>=8

@@ -1,0 +1,15 @@
+:root{--ink:#1b1f24;--muted:#57606a;--line:#d0d7de;--accent:#0b5cad;--code:#f6f8fa}
+body{font:15px/1.6 "Helvetica Neue",Arial,sans-serif;color:var(--ink);background:#fff;max-width:900px;margin:0 auto;padding:40px 32px}
+header#title-block-header{border-bottom:3px solid var(--accent);margin-bottom:20px}
+h1.title{font-size:28px;margin:0 0 4px;color:var(--accent)} p.subtitle{font-size:17px;color:var(--muted);margin:0 0 14px}
+h1{font-size:22px;color:var(--accent);border-bottom:1px solid var(--line);padding-bottom:4px;margin-top:34px}
+h2{font-size:18px;margin-top:24px} h3{font-size:16px}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:13.5px}
+th,td{border:1px solid var(--line);padding:6px 9px;vertical-align:top;text-align:left} th{background:#eef3f8}
+code{background:var(--code);padding:1px 4px;border-radius:4px;font:12.5px Menlo,monospace}
+pre{background:#0d1117;color:#e6edf3;padding:12px 14px;border-radius:6px;overflow-x:auto;white-space:pre-wrap;word-break:break-word;font-size:11.5px;line-height:1.45}
+pre code{background:none;color:inherit;padding:0;font-size:inherit}
+figure{margin:16px 0;text-align:center;page-break-inside:avoid} img{max-width:100%;border:1px solid var(--line);border-radius:6px}
+figcaption{font-size:13px;color:var(--muted);margin-top:6px;font-style:italic}
+@media print{body{padding:0;max-width:none;font-size:12.5px} h1{page-break-after:avoid} pre{page-break-inside:auto} tr{page-break-inside:avoid}}
+@page{size:A4;margin:16mm 14mm}

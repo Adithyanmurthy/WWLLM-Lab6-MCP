@@ -1,0 +1,19 @@
+[
+  {
+    "id": 1,
+    "content": "The project deadline is October 30th and the demo is on the 28th.",
+    "tags": [
+      "project",
+      "deadline"
+    ],
+    "created": "2026-10-16 14:08"
+  },
+  {
+    "id": 2,
+    "content": "my MCP lab viva is on Friday at 10am",
+    "tags": [
+      "lab"
+    ],
+    "created": "2026-10-16 14:09"
+  }
+]
